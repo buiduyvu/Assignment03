@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/laptop.css">
+	<link rel="stylesheet" href="./css/mobile.css">
+	<link rel="stylesheet" href="./css/tablet.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/font.css">
+	<title>Assignment 03</title>
+</head>
+
+<body>
+
+	<div class="container">
+		<div id="banner">
+<div class="banner-text">
+			<h1>Nguyễn Văn A</h1>
+	<br/>
+			<span>Full Stack Developer</span>
+		</div>
+		</div>
+		<!-- <img src="images/banner.jpg" alt=""> -->
+
+	</div>
+	<section id="nav-bar">
+		<div class="container">
+			<div class="row row-cols-1 row-cols-sm-4 row-cols-md-4">
+			  <div class="col"><a class="icon-user mauxanh nav-link" href="#"></a><a href="#"
+				class="maugray">Thông tin</a></div>
+			  <div class="col"><a class="icon-doc-text-inv mauxanh nav-link" href="#"></a><a href=""
+				class="maugray">Lý lịch</a></div>
+			  <div class="col"><a href="#" class="maugray nav-link">
+				<!-- <h1>Nguyễn Văn A</h1>
+				<span>Full Stack Developer</span> -->
+			</a></div>
+			  <div class="col"><a class="icon-mail-alt mauxanh nav-link" href="#"></a><a class="maugray"
+				href="">Chứng chỉ</a></div>
+			</div>
+			<div class="col"><a class="icon-star-1 mauxanh nav-link" href="#"></a><a class="maugray" href="">Dự
+				Án</a></div>
+			</div>
+		  </div>
+		<!-- <nav class="container">
+			<ul>
+				<li class="nav-item"><a class="icon-user mauxanh nav-link" href="#"></a><a href="#"
+						class="maugray">Thông tin</a></li>
+				<li class="nav-item"> <a class="icon-doc-text-inv mauxanh nav-link" href="#"></a><a href=""
+						class="maugray">Lý lịch</a></li>
+				<li class="nav-item"><a href="#" class="maugray nav-link">
+						<h1>Nguyễn Văn A</h1>
+						<span>Full Stack Developer</span>
+					</a></li>
+				<li class="nav-item"><a class="icon-mail-alt mauxanh nav-link" href="#"></a><a class="maugray"
+						href="">Chứng chỉ</a></li>
+
+				<li class="nav-item"> <a class="icon-star-1 mauxanh nav-link" href="#"></a><a class="maugray" href="">Dự
+						Án</a></li>
+			</ul>
+		</nav> -->
+	</section>
+
+
+	<section id="about" class="bg-grey">
+		<div class="container">
+			<div id="target">
+				<h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+				<p>
+					Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh
+					Nghiệp của FUNiX. Em mong muốn mình sẽ được làm việc với vị
+					trí <b>Fullstack Developer</b>, có thể vận dụng những kiến
+					thức đã được trau dồi và không ngừng học hỏi để phát triển
+					bản thân, cũng như hoàn thành tốt nhất công việc được giao.
+				</p>
+			</div>
+
+			<div id="personal-info" style="margin-top: 20px">
+				<h1 class="section-title">Thông tin cá nhân</h1>
+
+
+				<div id="content2">
+				  <input id="example" type="email" placeholder="Enter email"/>
+					<div>Hãy nhập email để xác thực</div>
+				  <div>
+					<button style="height: 20px" class="bodervien" onclick="check_email()">Submit</button>
+				  </div>
+				  <div>
+					<p id="result"></p>
+				  </div>
+				</div>
+<div id="content" style="display: none"><ul  class="mt-40 info" >
+					<li><span>Giới tính</span> : Nam</li>
+					<li><span>Ngày sinh</span> : 19/05/2000</li>
+					<li><span>Điện thoại</span> : (+84) 912398xxx</li>
+					<li><span>Email</span> : sinhvien@funix.edu.vn</li>
+					<li><span>Địa chỉ</span> : Số 10, đường 10, Hà Nội</li>
+					<li><span>Website</span> : https://abc.tech</li>
+				</ul>
+				<ul  class="mt-41" >
+					<li><a class="icon-twitter mauxanh" href=""></a></li>
+					<li><a class="icon-facebook mauxanh"></a></li>
+					<li><a class="icon-gplus mauxanh" href=""></a></li>
+					<li><a class="icon-linkedin mauxanh" href=""></a></li>
+				</ul></div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="job-info">
+		<div class="container">
+			<div style="margin-top: 20px">
+				<h1 class="info-col-1">Kinh nghiệm<span style="font-size: 1em;" class="ic-toolbox info-col-2"></span>
+				</h1>
+
+
+				<ul>
+					<li>Công ty Y</li>
+					<li>05/2022 - <a class="bodervien" href="#"><i>Hiện tại</i></a></li>
+					<li>Full Stack Developer</li>
+					<li>Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có.</li>
+					<li>Phân tích các thiết kế Database, sử dụng các hệ quản trị CSDL</li>
+				</ul>
+				<ul>
+					<li>Công ty Y</li>
+					<li>06/2021 - 04/2022</li>
+					<li>Web Designer</li>
+					<li>Thiết kế Website dựa trên yêu cầu của khách hàng</li>
+					<li>Sử dụng các công cụ: Figma, Canva, PTS.</li>
+				</ul>
+
+
+			</div>
+			<div style="margin-top: 20px">
+				<h1 class="info-col-1">Học vấn<span style="font-size: 1em;" class="	ic-pencil info-col-2"></span>
+				</h1>
+
+				<ul>
+					<li>FUNIX</li>
+					<li>06/2021 - 05/2022</li>
+					<li>Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.</li>
+					<li>GPA: 9 / 10</li>
+					<li></li>
+				</ul>
+				<ul>
+					<li>Cử nhân - ĐH FPT</li>
+					<li>08/2016 - 07/2019</li>
+					<li>Web Designer</li>
+					<li>Thiết kế Website dựa trên yêu cầu của khách hàng</li>
+					<li>Sử dụng các công cụ: Figma, Canva, PTS.</li>
+				</ul>
+			</div>
+			<div style="margin-top: 20px">
+				<h1 class="info-col-1">Hoạt động <span style="font-size: 1em;" class="ic-toolbox info-col-2"></span>
+				</h1>
+				<ul>
+					<li>FUNIX</li>
+					<li>06/2021 - 05/2022</li>
+					<li>Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.</li>
+					<li>GPA: 9 / 10</li>
+					<li></li>
+				</ul>
+				<ul>
+					<li>Cử nhân - ĐH FPT</li>
+					<li>08/2016 - 07/2019</li>
+					<li>Web Designer</li>
+					<li>Thiết kế Website dựa trên yêu cầu của khách hàng</li>
+					<li>Sử dụng các công cụ: Figma, Canva, PTS.</li>
+				</ul>
+			</div>
+			<div style="margin-top: 20px">
+				<h1 class="info-col-1">Sở thích<span style="font-size: 1em;" class="	ic-pencil info-col-2"></span>
+				</h1>
+				<div></div>
+				<i class="center ic-megaphone"></i>
+				<i class="center ic-hotairballoon"></i>
+				<i class="center ic-strategy"></i>
+				<i class="center ic-basket"></i>
+
+				<ul>
+					<li>Âm nhạc</li>
+					<li>Du lịch</li>
+					<li>Chơi game</li>
+					<li>Nấu ăn</li>
+				</ul>
+			</div>
+			<div style="margin-top: 20px">
+				<h1 class="info-col-1">Ngôn ngữ<span style="font-size: 1em;" class="ic-mic info-col-2"></span></h1>
+				English - IELTS 7.0 <br /><span class="gachxanh"></span>
+				<span class="gachxanh"></span><span class="gachghi"></span>
+				<br />
+				Japanese -N3 <br /><span class="gachxanh"></span><span class="gachxanh"></span><span
+					class="gachxanh"></span>
+			</div>
+			<div style="margin-top: 20px">
+				<h1 class="info-col-1">Kỹ năng<span style="font-size: 1em;" class="ic-tools-2 info-col-2"></span>
+				</h1>
+				HTML/CSS: Fundamental<br />
+				<span class="gachxanh"></span><span class="gachxanh"></span><span class="gachghi"></span>
+				<br />
+				Javascrip: Intermediate <br /><span class="gachxanh"></span><span class="gachxanh"></span><span
+					class="gachghi"></span>
+				<br />
+				NodeJS:Intermediate <br /> <span class="gachxanh"></span><span class="gachxanh"></span><span
+					class="gachxanh"></span>
+				<br />
+				Boottrap 5: Fundamental <br />
+				<span class="gachxanh"></span><span class="gachghi"></span><span class="gachghi"></span>
+			</div>
+		</div>
+	</section>
+	<section id="certificate" class="bg-grey">
+		<div class="container">
+			<h1 class="section-title">
+				Chứng chỉ - Giải thưởng
+			</h1>
+
+			<ul>
+				<li><img style="width:80%;" src="./images/Cert_DBI.png" alt=""><h1>Chứng chỉ lập trình web - funix</h1><br />- Chứng chỉ thuộc chương trình CCDN<br />- GPA:
+					8,6</li>
+<!--				<li>-->
+
+<!--				</li>-->
+				<li><img style="width:80%;border-left: 1px solid #d6c08d;" src="./images/Cert_DBI.png" alt="">
+						<h1>Chứng chỉ lập trình web - funix</h1><br />- Chứng chỉ thuộc chương trình CCDN<br />- GPA:
+					8,.
+				</li>
+<!--				<li>-->
+<!--				-->
+<!--				</li>-->
+
+			</ul>
+
+			<hr color="#d6c08d">
+			<ul>
+				<li><img style="width:80%;" src="./images/Cert_DBI.png" alt=""><h1>Chứng chỉ lập trình web - funix</h1><br />- Chứng chỉ thuộc chương trình CCDN<br />- GPA:
+					8,.</li>
+<!--				<li>-->
+<!--					-->
+<!--				</li>-->
+			</ul>
+
+
+
+
+	</section>
+
+	<section id="project">
+		<div class="container">
+			<h1 class="section-title">
+				Dự án
+			</h1>
+			<div class="project-1">
+				<div><img style="width:100%;" src="./images/project_1.png" alt="">
+					<table class="project-table">
+
+						<tr>
+							<td colspan="3">CV CÁ NHÂN</td>
+
+						</tr>
+						<tr>
+							<td colspan="3"><a class="bodervien" href="">2001</a> <a class="icon-user" href="">
+									FUNIX</a>
+								<a class="icon-lamp" href="">Dev</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Mô tả</td>
+							<td>Trang Web CV cá nhân online. Gồm các thông tin cá nhân online. Gồm các thông tin cá
+								nhân cũng như kỹ năng nghề nghiệp</td>
+						</tr>
+						<tr>
+							<td>Nhiệm vụ</td>
+							<td>- Phát triển code - Review code <br />- Tối ưu code -Xử lý lỗi</td>
+						</tr>
+						<tr>
+							<td>Công nghệ</td>
+							<td>- HTML, CSS</td>
+						</tr>
+					</table>
+				</div>
+
+				<div><img style="width:100%;" src="./images/project_1.png" alt="">
+					<table class="project-table">
+						<tr>
+							<td colspan="3">TRANG WEB QUẢN LÝ THÚ CƯNG</td>
+
+						</tr>
+
+						<tr>
+							<td colspan="3"><a class="bodervien" href="">2001</a> <a class="icon-user" href="">
+									FUNIX</a>
+								<a class="icon-lamp" href="">Dev</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Mô tả</td>
+							<td>Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân nặng, giống, tình trạng
+								tiêm chủng,... Bao gồn các chức năng thêm/ sửa/ xóa.</td>
+						</tr>
+						<tr>
+							<td>Nhiệm vụ</td>
+							<td>- Phát triển code - Review code <br />- Tối ưu code -Xử lý lỗi</td>
+						</tr>
+						<tr>
+							<td>Công nghệ</td>
+							<td>- HTML, CSS, Javascrip</td>
+						</tr>
+					</table>
+				</div>
+				<div><img style="width:100%;" src="./images/project_1.png" alt="">
+					<table class="project-table">
+						<tr>
+							<td colspan="3">TRANG WEB XEM TIN TỨC</td>
+
+						</tr>
+
+						<tr>
+							<td colspan="3"><a class="bodervien" href="">2001</a> <a class="icon-user" href="">
+									FUNIX</a>
+								<a class="icon-lamp" href="">Dev</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Mô tả</td>
+							<td>Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng có thể tìm kiếm các tin
+								tức đựa thwo các từ khóa</td>
+						</tr>
+						<tr>
+							<td>Nhiệm vụ</td>
+							<td>- Phát triển code -Review code<br />- Tối ưu - Xử lý lỗi</td>
+						</tr>
+						<tr>
+							<td>Công nghệ</td>
+							<td>- HTML, CSS, Javascrip</td>
+						</tr>
+					</table>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+	<section id="footer" class="bg-grey">
+		<div class="container">
+			<ul>
+				<a class="icon-facebook-circled" href=""></a>
+				<li>Facebook</li>
+				<a class="icon-linkedin-circled" href=""></a>
+				<li>Linkedin</li>
+				<a class="icon-github-circled" href=""></a>
+				<li>Github</li>
+			</ul>
+		</div>
+	</section>
+<script>
+function check_email() {
+  const input = document.querySelector("#example");
+  const display = document.querySelector("#result");
+  if (input.value.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)) {
+    document.getElementById("content").style.display = 'block';
+	 document.getElementById("content2").style.display = 'none';
+  } else {
+    display.innerHTML = input.value + ' Không đúng định dạng email';
+  }
+}
+</script>
+
+</body>
+
+</html>
